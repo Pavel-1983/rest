@@ -1,0 +1,357 @@
+body {
+	margin:0;
+}
+
+.anketa {
+	font-size:26px;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(offX=4, offY=5, color=#9a8d99, positive=true);
+	text-shadow:4px 5px 0px rgba(139, 0, 0, 1);
+	-webkit-text-shadow:4px 5px 0px rgba(139, 0, 0, 1);
+	-moz-text-shadow:4px 5px 0px rgba(139, 0, 0, 1);
+	
+}
+.input1 {
+	//background-color:#E0FFFF;
+	background-color:black;
+	color:white;
+	border:5px double #FF7F50;
+	margin-left:10px;
+	width:180px;
+ 	font-family: 'Alfa Slab One', cursive;
+	border-radius:10px;
+}
+.choice {
+	color:#FF7F50;
+        font-size:20px;
+}
+
+.menu_nav {
+    	background:#800000;
+     	color:white;
+     	font-family: 'Pacifico', cursive;
+
+}
+.li_header {
+     	color:orange;
+}
+.name {
+     	font-family: 'Alfa Slab One', cursive;
+     	font-size:26px;
+     	color:orange;
+
+}
+
+.main_header_menu {
+    	//height: 60px;
+    	background: gray;
+}
+
+.logo_container {
+    	//text-align: center;
+    
+}
+.logo_container > img {
+     	height: 75px;
+     	width:100%;
+     
+}
+
+.nav_menu > li {
+    	display:inline;
+    	color:orange;
+    	font-size: 18px;
+    	padding-left:27px;
+    	font-family: 'Lobster', cursive; 
+}
+.nav_menu>.li1:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu>.li2:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu>.li3:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu>.li4:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu>.li5:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu>.li6:hover{
+	font-size:20px;
+        color:red;
+}
+.nav_menu {
+    	margin: 0;
+    	padding: 0;
+    	line-height: 60px;
+}
+.menu_box {
+    	position: fixed;
+    	width: 200px;
+    	left: -200px;
+    	top: 0;
+    	background: green;
+    	height: 100%;
+    	margin: 0;
+    	z-index: 1;
+} 
+.menu_btn {
+    	position: fixed;
+    	left: 0;
+    	top:0;
+    	color: red;
+    	cursor: pointer;
+    	width: 20px;
+    	z-index: 2;
+}
+#menu_check {
+    	display: none;
+}
+#menu_check:checked  ~ .menu_box {
+    	left: 0;
+}
+#menu_check:checked  ~ .menu_btn {
+    	left: 180px;
+}
+
+
+
+
+.main_nav{
+     	background:url('3-min.png');
+     	background-size: cover;
+     	font-family: 'Alfa Slab One', cursive;
+     	color:orange;
+}
+
+.img-fluid { 
+    	max-width: 100%;  
+    	height:auto;
+	background-color:#800000;
+    
+ }
+.name_we {
+    	text-align:center;
+    	background-color:#778899;
+    	margin-bottom:0;
+	
+}
+.o_nas {
+    	background-color:#800000;
+    	color:white;
+    	font-size:20px;
+    	font-family: 'Lobster', cursive; 
+    	padding-top:20px;
+	   
+}
+
+.o_nas2 {
+    	background-color:#800000;
+}
+.sochial > li {
+	display:inline;
+
+}
+.a1, .a2, .a3, .a4 {
+ 	padding-right:70px;
+  	font-size:30px;
+  	color:gray;
+
+}
+.a1:hover {
+	color: white;
+	
+}
+.a2:hover {
+	color: white;
+	
+}
+.a3:hover {
+	color: white;
+	
+}
+.a4:hover {
+	color: white;
+	
+}
+
+.name_we1{
+   	text-align:center;
+}
+
+
+
+#advantages {
+    	background: #B0C4DE;
+    	margin-top: -5xpx;
+    	font-family: 'Lobster', cursive; 
+       
+}
+.icon_ad{
+    	width:100px;
+    	height:100px;
+    	background:#800000;
+    	border-radius:50px;
+    	text-align:center;
+    	margin:0 auto;
+
+}
+
+.icon_ad > i {
+    	font-size:50px;
+    	margin-top:25px;
+    	color:#708090;
+}
+.icon_ad:hover{
+	transform:scale (1.1);
+	border:3px solid black;
+	trbsition:border 2s;
+}
+.title_ad {
+    	line-height:18px;
+    	font-size:26px;
+    	height:36px;
+    	text-align:center;
+    	text-decoration:underline;
+}
+.description_ad {
+    	text-align:center;
+    	line-height:18px;
+    	font-size:22px;
+}
+
+#prices {
+    	border:4px dotted black;
+    	padding: 20px;
+    	background-color:#B0C4DE;
+    	margin-top:-10px;
+   	font-family: 'Lobster', cursive; 
+}
+.price_card {
+    	border: 3px dotted black;
+    	background-color:#808000;
+    	border-radius: 5px;
+    	padding: 10px;
+	
+	margin:5px;
+	aligan:center;
+}
+.price_value {
+    	font-size: 20px;
+    	color: black;
+}
+.price_des {
+    	font-size: 20px;
+    	font-weight: 600;
+}
+.call_back{
+    	background-color:#00FFFF;
+}
+.prise_container{
+    	border-bottom: 1px solid;
+}
+.price_hover:hover { 
+    	transform: scale(1.1);
+    	border-radius:50px;
+    	background:#C0C0C0;
+	box-shadow:39px 11px 54px 11px rgba(29,37,36,0.57);
+	-webkit-box-shadow:39px 11px 54px 11px rgba(29,37,36,0.57);
+	-moz-box-shadow:39px 11px 54px 11px rgba(29,37,36,0.57);
+	transition:border-radius 1s;
+}
+.price_hover {
+	box-shadow:35px 18px 28px 8px rgba(39,43,42,0.91);
+	-webkit-box-shadow:35px 18px 28px 8px rgba(39,43,42,0.91);
+	-moz-box-shadow:35px 18px 28px 8px rgba(39,43,42,0.91);
+	
+}
+.free:after{
+    	content: 'sale';
+    	background-color:yellow;
+    	border-radius:30px;
+    	top: -25px;
+   	right: -25px;
+   	transition: transform 1s;
+    	position: absolute;
+    
+}
+.free:hover:after{
+    	transform: rotate(360deg)
+}
+
+
+.photo_comment {
+	width:80px;
+	height:90px;
+	border-radius:50px;
+}
+#comment {
+    	border-top:4px dotted black;
+    	padding: 20px;
+    	background-color:#B0C4DE;
+    	margin-top:-10px;
+
+
+}
+.comment1 {
+    	background-color:#FFA500;
+    	border-radius: 50px;
+    	padding: 5px;
+	margin:25px;
+	
+}
+.comment_hover:hover { 
+    	transform: scale(1.1);
+	border-radius:10px;
+	transition:border-radius 2s;
+}
+
+.comment2 {
+	font-family: 'Lobster', cursive;
+	padding:5px; 
+	font-size:14px;
+	
+}
+
+.footer_color {
+	background-color:#800000;
+	padding-top:10px;
+	
+}
+.input2 {
+	background-color:#B0C4DE;
+	border:5px double #FF7F50;
+	border-radius:50px;
+	width:150px;
+	margin-left:10px;
+}
+.name1 {
+     	font-family: 'Alfa Slab One', cursive;
+     	font-size:20px;
+     	color:white;
+    	padding-left:10px;
+
+}
+.comment3 {
+	font-family: 'Lobster', cursive;
+	padding:20px; 
+	font-size:18px;
+        color:white;
+}
+.maps{
+	padding-top:-5px;
+	
+}
+.prava {
+    	background:black;
+	color:white;
+	font-size:24px;
+	font-family: 'Alfa Slab One', cursive;
+}
